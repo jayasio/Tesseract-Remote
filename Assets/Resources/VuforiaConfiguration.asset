@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 4bc5fd733b147194692297d23f623541, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QWVDYUN1SC8vLy8vQUFBQUtIN1dQWTJjS1VNdHJQNUlmMVVKYWs5L3FYWExBWDJUbFVnZVI2aEk0ZHBadEVWc0R0c3AzOFdhU3padzhtKytwZE9WSE9yZXpyeFAvekJDZkFIR2cyNkdOVGlUSFZXZk1lbmdhMmhoNDYvZjF3RDF2dFpLaS9XRWdGOTV4TkVNdE9qVWhoUFY1elA5dWZTNTQvVWxpc1FUMnBKcVlEa0ZuK2pqS0pTRmpiWXpFNkRpdFg2M1FjUTczeEdSSWtDUUo0Z2JoSE4vcVJ3UXdXUnBkNjloQWYvWTN6NFpFR2FhVk55NlFoOEFKU1I4Y1hDRGFGSjNLK2Z5ZWNIdG5lczJWSmc0Ujd4b2lXL2dsdjNnUHlsMkpkVXBDUStnb1dWVUtOTStaYkVtTlJUcUNJTTE2ejVMaXhRZk1pL0wwVmxoYUtIZzVYbzlHTXRheVhOMHZjZWRGMFRLS2VnRFRwK3NlT1AreUhZM3RFMWo=
+    vuforiaLicenseKey: AaTWiaX/////AAABme92CXpgVkxHqu3kGJkhSQNzWk49CPoa6yYkTe0Tj62iYg8vhWoezydcor3HJIxumHIWASYVcE55QN4vfnvc/qwZ0ROot53UYBwAEzf/m5Nbs6uOtGuHt/Gi18ZJp+LHuqWFX9g+1T1JkbzFJTIyZ/e0DQx9nNIzAMZ65MqC/uPt3h9pC//YfE9A9ScQGzn4XpIHOcnECsqYQqmA++ByxfjlSyg+FlJjGxuLvurSzEsGKB8roJSlgQwtLNPHzJVR+3Ptyl08nNrmou46SsrkLNKpcqJ8OAp36Y2LqhwixZisXHrVpIfTz2cs49maNoMgWfK6AH4slTVujIAoY/k3AKzjXmcRT66krxpD5QDLOIgD
+    ufoLicenseKey: QVZ5NS9Idi8vLy8vQUFBQUtLcXEwdWd6V0VNbW1mR2VRZUZUcFgxTFl6ZitzUmxVSzkzL0NUR1Z4MEp2cWUyL0JMd2xIK2NaVjJ4OXpCUVd1NFArTnJMdmlxa0lGcVNPc0lqcVRXUm50Wm8xZXRab2xkQmVLamRPR0ErQ2hFcThFQVp5SXdWUkI3RjJnc2Vnb3RBYXlKMDdJRDFPWVR1VS92Tk5JdUV2N1FMNjJDZERzY2hac1JSM1UwbWJCSjNvblZlZyszQVlqNlF6S1VCWHVDR3JROFRGVjVRd1hTNEZTd2tKd3pVZFoybWVQVEdPQTdZN1MrejQyL014aCt5YmIzWWRicDRFa2hLYXJDcUc1amhTenU2T01wYWYrUXdyRGtlaVJNOW9oTWs1eVVIMTZWQWwvNEpJZWQxbS9yNUFDRWVxVXE5dnZianZvM21sWGR3bEJQWHB2alA0UWJvZE9IUjE3QjRYN1I2Z1h2bUl5L2hBdVc0NkR2Q3A=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -32,10 +32,10 @@ MonoBehaviour:
       type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    arcoreRequirement: 0
-    autoImportArcore: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
+    arcoreRequirement: 2
+    autoImportArcore: 1
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0

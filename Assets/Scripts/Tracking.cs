@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Tracking : MonoBehaviour
 {
@@ -8,13 +9,16 @@ public class Tracking : MonoBehaviour
     TCPTestClient tcp;
 
     public bool tracking {get; set;}
+    public TMP_InputField IpInputField, PortInputField;
+
 
     void Start()
     {
         tcp = new TCPTestClient();
-        tcp.OnConnect();
         trackerState = new TrackerState();
     }
+
+    public void OnConnect() => tcp.OnConnect(IpInputField.text, int.Parse(PortInputField.text));
 
     void Update()
     {

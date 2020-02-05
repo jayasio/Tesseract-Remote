@@ -5,7 +5,6 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using UnityEngine;
-using TMPro;
 using System.Net;
 
 
@@ -15,21 +14,16 @@ public class TCPTestClient
     private TcpClient socketConnection;
     private Thread clientReceiveThread;
     private bool _connected = false;
-    private string IP = "141.82.174.252";
-    private int port = 8052;
+    private string IP;
+    private int port;
     #endregion
 
     public bool connected { get { return _connected; } }
-    // public TMP_InputField IpInputField, PortInputField;
 
-    
-    
-    public void OnConnect()
+    public void OnConnect(string IP, int port)
     {
-        // IP = IpInputField.text;
-        // port = int.Parse(PortInputField.text);
-        // IP = "192.168.0.102";
-        // port = 8052;
+        this.IP = IP;
+        this.port = port;
         ConnectToTcpServer();
     }
 
